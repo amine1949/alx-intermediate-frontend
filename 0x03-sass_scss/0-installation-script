@@ -1,0 +1,23 @@
+1. Install Node.js (if not already installed):
+   - Option 1: Install via package manager (e.g., on Ubuntu: \`sudo apt install nodejs npm\`)
+   - Option 2: Download from official Node.js website
+
+2. Install nvm (Node Version Manager) for Linux:
+   - Run: \`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash\`
+   - Exit and reopen terminal
+
+3. Install specific Node.js version (optional):
+   - \`nvm install 20.16\`
+   - \`nvm use 20.16\`
+
+4. Install SASS globally:
+   - \`npm install -g sass@3.7.4\`
+
+5. Verify installation:
+   - \`sass --version\` should show 3.7.4
+
+Alternative installation methods:
+- For Windows/Mac: Download Dart Sass from https://sass-lang.com/install
+- For other package managers:
+  - yarn: \`yarn global add sass@3.7.4\`
+  - pnpm: \`pnpm add -g sass@3.7.4\`" > 0-installation-script
